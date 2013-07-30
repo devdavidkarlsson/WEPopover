@@ -31,7 +31,7 @@
 }
 
 @property (nonatomic, assign) BOOL touchForwardingDisabled;
-@property (nonatomic, assign) id <WETouchableViewDelegate> delegate;
+@property (nonatomic, strong) id <WETouchableViewDelegate> delegate;
 @property (nonatomic, copy) NSArray *passthroughViews;
 
 @end
